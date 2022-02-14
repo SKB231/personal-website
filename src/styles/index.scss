@@ -283,7 +283,7 @@ img {
   }
 
   .container {
-    align-items:center;
+    align-items: center;
     justify-content: flex-start;
   }
 
@@ -292,5 +292,57 @@ img {
   }
   .indent2 {
     padding-left: 0rem;
+  }
+}
+
+.ProjectsContainer {
+  display: flex;
+  width: 70%;
+  height: calc(100vh - 100px);
+  flex-direction: column;
+  margin: 0 auto;
+  h1 {
+    text-align: center;
+    font-weight: lighter;
+  }
+}
+
+.Projects {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ProjectCard {
+  min-width: 80%;
+  max-width: 81%;
+  margin: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: -4px 7px 18px #8080807a;
+  border-radius: 1rem;
+  align-items: center;
+  a {
+    width: 30%;
+    text-decoration: none;
+    margin: 1rem;
+    background: transparent;
+    outline: none;
+    color: $light;
+    border: 2px solid teal;
+    padding: 0.2rem;
+    border-radius: 0.8rem;
+    background: rgba(0, 128, 128, 0.39);
+    text-align: center;
+  }
+
+  a:hover {
+    box-shadow: 0px 0px 11px 1px white;
+    cursor: pointer;
   }
 }
