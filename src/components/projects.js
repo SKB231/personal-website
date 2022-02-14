@@ -8,8 +8,8 @@ function Projects() {
         <div className="ProjectCard">
           <h3>Simple User Record Manager</h3>
           <p>
-            A simple database management system that I am making to help me get
-            a better understanding of CRUD applications. It's made with MongoDB,
+            A database management system that I am making to help me get a
+            better understanding of CRUD applications. It's made with MongoDB,
             Express, and Node JS. It uses the Passport login system for
             conducting user authentication, which uses JWT.
           </p>
@@ -47,41 +47,26 @@ function Projects() {
               </li>
             </ul>{" "}
           </p>
-          <a
-            href="https://github.com/SKB231/Simple-User-Database"
-            target="_blank"
-          >
+          <a href="https://github.com/SKB231/Todo-List-v2" target="_blank">
             GitHub
           </a>
-          <a
-            href="https://dbmanager-nodejs.herokuapp.com/login"
-            target="_blank"
-          >
+          <a href="skb231.github.io/todo-list-v2" target="_blank">
             Demo
           </a>
         </div>
         <div className="ProjectCard">
-          <h3>Simple User Record Manager</h3>
+          <h3>Calender</h3>
           <p>
-            A simple database management system that I am making to help me get
-            a better understanding of CRUD applications. It's made with MongoDB,
-            Express, and Node JS. It uses the Passport login system for
-            conducting user authentication, which uses JWT.
+            A JS Calender which contains a calender pointing to the current
+            date. Users can add/delete events on a particular day.
           </p>
           <a
-            href="https://github.com/SKB231/Simple-User-Database"
+            href="https://github.com/SKB231/Javascript-Calender"
             target="_blank"
           >
             GitHub
           </a>
-          <a
-            href="https://dbmanager-nodejs.herokuapp.com/login"
-            target="_blank"
-          >
-            Demo
-          </a>
         </div>
-        <div className="ProjectCard">P1</div>
       </div>
     </div>
   );

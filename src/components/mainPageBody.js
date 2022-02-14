@@ -1,6 +1,6 @@
 import React, { Component, useState } from "react";
 
-function mainPageBody() {
+function mainPageBody(props) {
   return (
     <div className="container cdark cflexCol">
       <h1 className="fLight monospace sizeL">
@@ -10,9 +10,16 @@ function mainPageBody() {
       <h1 className="fLight monospace sizeL biggerText">I do Full Stack</h1>
 
       <div className="buttonsContainer">
-        <a>Projects</a>
+        <a
+          onClick={(evt) => {
+            evt.preventDefault();
+            props.changePage("projects");
+          }}
+        >
+          Projects
+        </a>
         <a href="/Resume.pdf" target="_blank">
-          Resume
+          Resume PDF
         </a>
       </div>
     </div>

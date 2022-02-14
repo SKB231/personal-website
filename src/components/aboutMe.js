@@ -12,16 +12,20 @@ function aboutMe() {
         <p className="indent2">
           I'm a sophomore at Georgia Tech, College of Computing. I am working
           towards my B.S. Computer Science. My threads are the Intelligence and
-          Information Internetworks. I'm a full stack web developer, who mostly
-          uses the MERN stack, but I'm also interested in learning about Google
-          Cloud. I'm currently working on the
-          <a
-            href="https://www.cloudskillsboost.google/public_profiles/a4e698cd-8b90-433b-b10f-4db3176071cb"
-            target="_blank"
-          >
-            {" "}
-            Google Cloud: Cloud Enginner Learning Path
-          </a>
+          Information Internetworks.
+          <p>
+            {"\n\n"}
+            I'm a full stack web developer, who mostly uses the MERN stack, but
+            I'm also interested in learning about Google Cloud. I'm currently
+            working on the
+            <a
+              href="https://www.cloudskillsboost.google/public_profiles/a4e698cd-8b90-433b-b10f-4db3176071cb"
+              target="_blank"
+            >
+              {" "}
+              Google Cloud: Cloud Enginner Learning Path
+            </a>
+          </p>
         </p>
 
         <h2 className="formatUnderline indent">Who am I really? 🔍❓</h2>
