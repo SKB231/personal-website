@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 function aboutMe() {
   return (
-    <div className="container clight">
+    <div className="container clight cflexRow">
       <div className="ImageBox">
         <img src="/HeadShot.jpg"></img>
       </div>

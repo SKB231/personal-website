@@ -139,6 +139,14 @@ header {
 .cflexRow {
   flex-direction: row;
 }
+@media (max-width: 1000px) {
+  .cflexRow {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .container {
   width: 100%;
@@ -146,6 +154,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: scroll;
 }
 
 .fLight {
@@ -229,15 +238,10 @@ img {
   box-shadow: -5px 6px 17px 3px #00000085;
 }
 
-.ImageBox {
-  padding-right: 6rem;
-  border-right: 2px solid $dark;
-}
-
 .TextArea {
-  padding: 4rem;
+  padding: 3rem;
   background: linear-gradient(to top right, rgba(128, 128, 128, 0.15), #fff);
-  margin-left: 4rem;
+  margin-left: 3rem;
   border-top-left-radius: 2rem;
   box-shadow: -10px 10px 17px 3px rgba(128, 128, 128, 0.15);
   max-width: 50%;
@@ -256,4 +260,37 @@ img {
 
 .fwrap {
   flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+  .TextArea {
+    margin: 0;
+    margin-left: 0;
+    padding-top: 1rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-top: 1rem;
+    box-shadow: none;
+    border-radius: 0;
+    min-width: 300px;
+    background: none;
+    font-size: 0.8rem;
+  }
+  img {
+    margin-top: calc(100vh-100px);
+    max-width: 100%;
+    box-shadow: none;
+  }
+
+  .container {
+    align-items:center;
+    justify-content: flex-start;
+  }
+
+  .indent {
+    padding-left: 0rem;
+  }
+  .indent2 {
+    padding-left: 0rem;
+  }
 }
