@@ -11,7 +11,9 @@ function App() {
   return (
     <div className="App">
       <Header changePage={changePage} currentPage={currentPage} />
-      {currentPage === "mainPageBody" && <MainPageBody changePage={changePage}/>}
+      {currentPage === "mainPageBody" && (
+        <MainPageBody changePage={changePage} />
+      )}
       {currentPage === "projects" && <Projects />}
       {currentPage === "AboutMe" && <AboutMe />}
     </div>

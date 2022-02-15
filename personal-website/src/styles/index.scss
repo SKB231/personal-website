@@ -31,6 +31,10 @@ body {
   height: 100%;
 }
 
+.light {
+  color: $light;
+}
+
 header {
   background: $dark;
   width: 100%;
@@ -46,7 +50,6 @@ header {
     justify-content: space-between;
     z-index: 100;
     position: relative;
-
     .logo {
       font-size: 1.5rem;
       font-weight: bold;

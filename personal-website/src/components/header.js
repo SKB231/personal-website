@@ -1,7 +1,7 @@
 import React, { Component, useState } from "react";
-
 import { BiMenuAltRight } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
+import resumePDF from "./Resume.pdf";
 
 function Header(props) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -63,6 +63,11 @@ function Header(props) {
             <li>
               <a href="mailto:sbhat97@gatech.edu" target="_blank">
                 Email
+              </a>
+            </li>
+            <li>
+              <a href={resumePDF} target="_blank">
+                Resume
               </a>
             </li>
           </ul>

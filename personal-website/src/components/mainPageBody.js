@@ -1,4 +1,5 @@
 import React, { Component, useState } from "react";
+import resumePdf from "./Resume.pdf";
 
 function mainPageBody(props) {
   return (
@@ -18,7 +19,7 @@ function mainPageBody(props) {
         >
           Projects
         </a>
-        <a href="/Resume.pdf" target="_blank">
+        <a href={resumePdf} target="_blank">
           Resume PDF
         </a>
       </div>

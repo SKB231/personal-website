@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import headShotImg from "./HeadShot.jpg";
 
 function aboutMe() {
   return (
     <div className="container clight cflexRow">
       <div className="ImageBox">
-        <img src="/HeadShot.jpg"></img>
+        <img src={headShotImg}></img>
       </div>
       <div className="TextArea">
         <h1>Hi 👋</h1>
