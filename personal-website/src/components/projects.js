@@ -50,7 +50,7 @@ function Projects() {
           <a href="https://github.com/SKB231/Todo-List-v2" target="_blank">
             GitHub
           </a>
-          <a href="skb231.github.io/todo-list-v2" target="_blank">
+          <a href="https://skb231.github.io/Todo-List-v2/" target="_blank">
             Demo
           </a>
         </div>
