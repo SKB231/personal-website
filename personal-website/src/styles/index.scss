@@ -3,7 +3,7 @@
 //variables
 $Poppins: "Poppins", sans-serif;
 
-$dark: rgb(29, 29, 29);
+$dark: #231913;
 $light: #fff;
 $prmary: rgb(162, 162, 246);
 $bg: rgb(244, 244, 255);
@@ -271,6 +271,7 @@ img {
 }
 
 @media (max-width: 1000px) {
+
   .TextArea {
     margin: 0;
     margin-left: 0;
@@ -305,56 +306,102 @@ img {
 
 .ProjectsContainer {
   display: flex;
-  width: 70%;
+  width: 100%;
+  min-width: 500px;
   height: calc(100vh - 100px);
   flex-direction: column;
   margin: 0 auto;
-  @media (max-width: 1000px) {
-    width: 100%;
-  }
+  max-height: 80vh;
+  // @media (max-width: 1000px) {
+  //   width: 100%;
+  // }
+  color:rgb(255, 85, 0);
   h1 {
     text-align: center;
-    font-weight: lighter;
+    font-weight: bolder;
+    margin: 1rem;
+    font-size: 3rem
   }
 }
 
 .Projects {
+  color:$light;
   display: flex;
   width: 100%;
   height: 100%;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
+.card2 {
+  background: #41b3a3;
+}
+.card1 {
+  background: #E27D60;
+}
+.card3 {
+  background: #C38D9E;
+}
 .ProjectCard {
   min-width: 100%;
-  margin: 1rem;
-
   padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  box-shadow: -4px 7px 18px #8080807a;
-  border-radius: 1rem;
+  box-shadow: 0px -11px 18px #0000009a;
   align-items: center;
-  a {
-    width: 30%;
-    text-decoration: none;
-    margin: 1rem;
-    background: transparent;
-    outline: none;
-    color: $light;
-    border: 2px solid teal;
-    padding: 0.2rem;
-    border-radius: 0.8rem;
-    background: rgba(0, 128, 128, 0.39);
-    text-align: center;
-  }
+  .ProjectCardContent {
+    display: flex;
+    flex-direction: row;
 
-  a:hover {
-    box-shadow: 0px 0px 11px 1px white;
-    cursor: pointer;
+    @media (max-width: 1000px) {
+      flex-direction: column;
+    }
+    justify-content: space-evenly;
+    .ProjectNotes {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+      }
+      .ProjectLinks {
+        margin: 2rem;
+        display: flex;
+        justify-content: center;
+        a {
+          text-decoration: none;
+          margin: 2rem 5rem;
+          padding: 1rem;
+          background: transparent;
+          outline: none;
+          border-radius: 1rem;
+          font-size: 1rem;
+          border: 2px solid $light;
+          box-shadow: 0px 0px 11px 1px rgb(5, 5, 5);
+          color: $light
+        }
+      
+        a:hover {
+          box-shadow: 0px 0px 11px 1px rgb(255, 85, 0);
+          cursor: pointer;
+        }
+      }
+    }
+    .ProjectImage {
+      min-width: 40%;
+      margin: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0px 0px 11px 1px rgb(255, 253, 253);
+    }
+    img {
+      width: 100%;
+      min-width: 600px;
+    }
   }
 }
 

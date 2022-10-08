@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import headShotImg from "./HeadShot.jpg";
+import headShotImg from "./headShot.jpg";
 
 function aboutMe() {
   return (
@@ -11,29 +11,25 @@ function aboutMe() {
         <h1>Hi 👋</h1>
         <h2 className="formatUnderline indent">Who am I ? 📚</h2>
         <p className="indent2">
-          I'm a sophomore at Georgia Tech, College of Computing. I am working
+          I'm a junior at Georgia Tech, College of Computing. I am working
           towards my B.S. Computer Science. My threads are the Intelligence and
           Information Internetworks.
           <p>
             {"\n\n"}
             I'm a full stack web developer, who mostly uses the MERN stack, but
-            I'm also interested in learning about Google Cloud. I'm currently
-            working on the
-            <a
-              href="https://www.cloudskillsboost.google/public_profiles/a4e698cd-8b90-433b-b10f-4db3176071cb"
-              target="_blank"
-            >
-              {" "}
-              Google Cloud: Cloud Enginner Learning Path
-            </a>
+            I'm also interested in learning about machine learning and neural
+            networks, specially generative models like the encoder-decoder
+            models.
           </p>
         </p>
 
-        <h2 className="formatUnderline indent">Who am I really? 🔍❓</h2>
+        <h2 className="formatUnderline indent">Why CS? 🔍❓</h2>
         <p className="indent2">
-          I love to code, because of the things we can create with it. Along
-          with this I love to learn things I find challenging, like probability!
-          Ocassionally I also make games in UE4 for fun. I was a developer at
+          For many "Hello World" may have been their first program. But for me,
+          it was a Unity Script of a ball moving in one direction. I love to
+          code, because of the freedom of things we can create with it. Along with this I
+          love to learn things I find challenging. Ocassionally I also make
+          games in UE4 for fun. I was a developer at
           <a target="_blank" href="https://twitter.com/InfimaGames">
             {" "}
             INFIMA Games
