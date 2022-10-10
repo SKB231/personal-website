@@ -32,10 +32,10 @@ function Projects() {
               <div className="ProjectLinks">
                 <div className="ButtonsContainer">
                   <a
-                    href="https://www.vip.gatech.edu/teams/vp4"
+                    href="https://github.com/aldencheung2/hackMIT"
                     target="_blank"
                   >
-                    Project Page
+                    Github
                   </a>
                 </div>
                 <div className="ButtonsContainer">
