@@ -51,16 +51,17 @@ function Projects() {
         <div className="ProjectCard card5">
           <div className="ProjectCardContent">
             <div className="ProjectNotes">
-              <h3>VIP ITS</h3>
+              <h3>VIP Intelligent tutoring system</h3>
               <p>
                 Working as a back end developer with a team to make a tutoring
                 system for students studying the Digital Signal Processing
-                course. Using Node and MongoDB framework to make additional API
-                endpoints to allow the front end to access the database.
-                Additionally working on setting an interface between front end
-                and a Model Coordinating and communicating with other teams and
-                team members by having weekly team meetings and updating the
-                Trello Board.
+                course. The app itself is built using Android Studio for the
+                front end. For the backend, I use Node and MongoDB framework to
+                make additional API endpoints to allow the front end to access
+                the database. Additionally working on setting an interface
+                between front end and a Model Coordinating and communicating
+                with other teams and team members by having weekly team meetings
+                and updating the Trello Board.
               </p>
               <div className="ProjectLinks">
                 <div className="ButtonsContainer blackLink">
