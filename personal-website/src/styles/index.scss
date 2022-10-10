@@ -338,6 +338,13 @@ img {
 .card1 {
   background: #E27D60;
 }
+.card4 {
+  background: #9b45b2;
+}
+.card5 {
+  background: #fcde67;
+  color: black;
+}
 .card3 {
   background: #C38D9E;
 }
@@ -348,7 +355,7 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  box-shadow: 0px -11px 18px #0000009a;
+  //box-shadow: 0px -11px 18px #0000009a;
   align-items: center;
   .ProjectCardContent {
     display: flex;
@@ -388,10 +395,18 @@ img {
           box-shadow: 0px 0px 11px 1px rgb(255, 85, 0);
           cursor: pointer;
         }
+        .blackLink {
+          a{
+            color: black;
+          }
+        }
       }
     }
     .ProjectImage {
-      min-width: 40%;
+      max-width: 50%;
+      @media (max-width: 1000px) {
+        max-width: 100%;
+      }
       margin: 1rem;
       display: flex;
       justify-content: center;
@@ -408,3 +423,4 @@ img {
 .CurrentPage {
   font-weight: bold;
 }
+

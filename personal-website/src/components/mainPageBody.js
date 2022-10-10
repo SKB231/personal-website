@@ -19,8 +19,11 @@ function mainPageBody(props) {
         >
           Projects
         </a>
-        <a href={resumePdf} target="_blank">
-          Resume PDF
+        <a
+          href="https://docs.google.com/document/d/1MYhW3d6izD0Ob_Nah77GciF1do-WYUg7nt1UKUc4UBM/export?format=pdf"
+          target="_blank"
+        >
+          Resume Doc
         </a>
       </div>
     </div>
