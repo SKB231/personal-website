@@ -15,14 +15,19 @@ function Projects() {
             <div className="ProjectNotes">
               <h3>HackMIT</h3>
               <p>
-                Working as a back end developer with a team to make a tutoring
-                system for students studying the Digital Signal Processing
-                course. Using Node and MongoDB framework to make additional API
-                endpoints to allow the front end to access the database.
-                Additionally working on setting an interface between front end
-                and a Model Coordinating and communicating with other teams and
-                team members by having weekly team meetings and updating the
-                Trello Board.
+                For this project I worked on the chart component of the
+                application. It graphed the daily sentiment and stock price
+                against time. I did this with the help of the Google Charts API.
+                The application itself we used Twitter API to access the top 100
+                most recent/relevant tweets about any given person and use
+                Google Cloud’s Natural Language Processing API to rank the
+                sentiment of each tweet. By aggregating all of these values, we
+                gauge how the public feels about a person right now by showing
+                the percent of positive and negative tweets, above 0 being
+                positive sentiment and below 0 being negative sentiment. We use
+                these metrics to compare them with weekly stock quotes, which
+                accesses real-time stock values through the AlphaVantage Stock
+                Market API.
               </p>
               <div className="ProjectLinks">
                 <div className="ButtonsContainer">
@@ -35,7 +40,7 @@ function Projects() {
                 </div>
                 <div className="ButtonsContainer">
                   <a
-                    href="https://www.youtube.com/watch?v=jqB3r_16WqA"
+                    href="https://www.youtube.com/watch?v=znzZnxfEQAc"
                     target="_blank"
                   >
                     Demo Video
